@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+header{
+    width: 100%;
+    padding:10px;
+    min-height:6%;
+    background-color:lightseagreen;
+    display: inline-block;
+    text-align: center;
+}
+header > div{
+    max-width: auto;
+    position: relative;
+    display: inline-block;
+    color:white;
+    font-size: xx-large;
+    font-family: 'Kodchasan', sans-serif;
+    padding-left: 2%;
+    padding-right:2%;
+}
+#description{
+    font-family: 'Asap', sans-serif;
+}
+.sort:hover{
+    transition: 0.5s;
+    border-radius:20%;
+    background-color: cadetblue;
+}
+#sliderStuff{
+    display: inline-block;
+    width:100%;
+}
+.slider{
+    margin-top: 5px;
+    margin-right: 1%;
+    margin-left:2%;
+    display: inline-block;
+    position: relative;
+    width:50%;
+    background: lightgrey;
+}
+#sorting{
+    text-align: center;
+}
+#numElem{
+    display: inline-block;
+    font-size: 20px;
+    font-family: 'Asap', sans-serif;
+}
+#sortingPlace{
+    display: inline-block;
+    width:95%;
+    height: 600px;
+    margin-top:25px;
+    margin-bottom:25px;
+    max-width: 1000px;
+}
+.bar{
+    display: inline-block;
+    margin-left: 1px;
+}
+/* canvas{
+    text-align: center;
+    margin:5px;
+    width: 95%;
+    height: 600px;
+    border:2px solid black;
+} */

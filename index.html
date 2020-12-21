@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "utf-8">
+        <title>Sorting Visualizers</title>
+        <link rel = "stylesheet" href = "index.css">
+    </head>
+    <body>
+        <header>
+            <div>
+                <p>Sorting Visualizers</p>
+            </div> 
+        </header>
+        <header>
+            <div class = "sort" id = "bubble">
+                <p>Bubble</p>
+            </div>
+            <div class = "sort" id = "merge">
+                <p>Merge</p>
+            </div>
+            <div class = "sort" id = "insertion">
+                <p>Insertion</p>
+            </div>
+            <div class = "sort" id = "random">
+                <p>Random</p>
+            </div>
+            <div class = "sort" id = "reset">
+                <p>Reset</p>
+            </div>
+        </header>
+        <div id = "body_container">
+            <div id= "sliderStuff">
+            <input type = "range" min = "3" max = "100" value = "3" class = "slider" id = "slider_num">
+            <p id = "numElem" style = "max-width:49%;">Number of Elements: 3</p>
+            </div>
+            <div id = "sorting">
+                <div id = "sortingPlace">
+                <!-- <canvas id = "canvas" ></canvas> -->
+                </div>
+                <div>
+                    <p id = "description">
+                        Welcome To the Sorting Visualizer.
+                        Pick one of the above options to get a 
+                        description and a visual example of the sorting 
+                        type.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <script src = "index.js"></script>
+    </body>
+</html>
