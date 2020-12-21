@@ -144,7 +144,7 @@ function merge_sort(){
         let interval2 = setInterval(function(){
             if (nums[i] > nums[i+1]){
                 clearInterval(interval2)
-                if (i >= 50){
+                if (i >= 40){
                     mergeArrays(nums.slice(0, i), nums.slice(i, nums.length))
                     drawBars()
                     }
